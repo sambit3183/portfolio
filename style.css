@@ -8,12 +8,27 @@ body{
     height: 100%;
     width: 100%;
     background-color: black;
-    color: white;
+    color:#e5e5e5;
+    font-family: Arial, sans-serif;
    
 
 }
 :root{
-    --bg:rgb(46, 46, 46);
+    --bg:#1a1a1a;
+    --gold:#d4af37;
+}
+
+h1,h2,h3{
+  color: var(--gold);
+}
+h1{
+
+font-size:50px;
+font-weight:600;
+letter-spacing:4px;
+color:#d4af37;
+text-transform:uppercase;
+
 }
 
 .nav-container {
@@ -22,7 +37,8 @@ body{
     flex-direction: row;
     justify-content: space-between;
     padding: 13px 20px;
-    background:var(--bg)
+    background:var(--bg);
+    align-items: center;
 }
 
 .logo{
@@ -31,16 +47,17 @@ body{
 .sa{
     color: red;
 }
+
+
 nav a{
     text-decoration: none;
-    color: white;
-    /* border: 1px solid; */
-    padding: 20px 20px;
+    color:#e5e5e5;
+    padding: 30px 30px;
     font-size: 1.8rem;
 }
 
 nav a:hover{
-    background-color: blue;
+    color: var(--gold);
 }
 
 /* .page2 */
@@ -50,18 +67,20 @@ nav a:hover{
 }
 
 .paragraph1 p{
-    border: 1px solid;
+    border: 1px solid #333;
     background-color: var(--bg);
+  
     flex-wrap: wrap;
     font-size: 1.25rem;
-    line-height: 1.8;
+    max-width: 700px;
+    line-height: 1.7;
     margin-bottom: 30px;
     padding: 5px 5px;
 
 }
 
 .image2 img{
-    border: 1px solid;
+    border: 1px solid #333;
     width: 800px;
     height: auto;border: 1px solid;
     background-color: var(--bg);
@@ -71,7 +90,7 @@ nav a:hover{
     margin-bottom: 30px;
 }
 #about-page{
-    display: flex;
+  display: flex;
   align-items: flex-start;
   justify-content: space-between;
   gap: 40px;
@@ -79,7 +98,7 @@ nav a:hover{
  }
 
  .page2{
-    border: 1px solid;
+    border: 1px solid #333;
     padding: 0 30px;
  }
 
@@ -181,7 +200,7 @@ nav a:hover{
 
 #home-page{
     padding: 30px 30px;
-    border: 1px solid;
+    border: 1px solid #333;
 }
 
 .page1{
@@ -190,11 +209,12 @@ nav a:hover{
 }
 
 .page1 p{
-    border: 1px solid;
+    border: 1px solid #333;
     background-color: var(--bg);
     flex-wrap: wrap;
     font-size: 1.25rem;
-    line-height: 1.8;
+    /* max-width: 700px; */
+    line-height: 1.7;
     margin-bottom: 30px;
     padding: 5px 5px;
 }
@@ -222,7 +242,7 @@ nav a:hover{
 }
 
 .contact__grid{
-  border: 1px solid;
+  border: 1px solid #333;
   padding: 50px 20vw;
 }
 
