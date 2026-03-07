@@ -308,3 +308,52 @@ nav a:hover{
 }
 
 
+
+#project-page{
+  width: 95%;
+  margin: auto;
+  padding: 40px;
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+#project-page h1{
+  font-size: 60px;
+  color: #d4af37;
+  margin-bottom: 40px;
+}
+
+.project-container{
+  display: flex;
+  gap: 30px;
+}
+
+.project-card{
+  flex: 1;
+  padding: 30px;
+  border: 1px solid rgba(255,255,255,0.15);
+  background: rgba(255,255,255,0.05);
+}
+
+.project-card h2{
+  color: white;
+  margin-bottom: 10px;
+}
+
+.project-card p{
+  color: #d9d9d9;
+  margin-bottom: 20px;
+}
+
+.project-card a{
+  text-decoration: none;
+  color: #d4af37;
+  border: 1px solid #d4af37;
+  padding: 8px 16px;
+}
+
+.project-card a:hover{
+  background:#d4af37;
+  color:black;
+}
+
+
